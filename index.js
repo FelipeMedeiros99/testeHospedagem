@@ -50,7 +50,7 @@ async function server() {
 
 
 
-    app.listen(PORT, () => console.log("Servidor on"))
+    app.listen(PORT || 5000, () => console.log("Servidor on"))
 
 }
 
